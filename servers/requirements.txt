@@ -1,0 +1,15 @@
+alembic
+Flask
+Flask-Cors
+Flask-Migrate
+Flask-SQLAlchemy
+greenlet
+itsdangerous
+Jinja2
+Mako
+MarkupSafe
+SQLAlchemy
+typing_extensions
+Werkzeug
+gunicorn
+python-dotenv
