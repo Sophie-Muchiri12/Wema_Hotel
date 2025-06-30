@@ -15,7 +15,7 @@ A full-stack hotel management system built with Flask (Python) backend and React
 
 ```
 Wema_Hotel/
-├── backend/
+├── servers/
 │   ├── app.py                 # Main Flask application
 │   ├── models.py              # Database models
 │   ├── routes/                # API route handlers
@@ -26,7 +26,7 @@ Wema_Hotel/
 │   ├── requirements.txt      # Python dependencies
 │   └── instance/
 │       └── database.db       # SQLite database file
-├── frontend/
+├── client/
 │   ├── src/
 │   │   ├── components/       # React components
 │   │   ├── pages/           # Page components
