@@ -71,7 +71,7 @@ Ensure you have the following installed on your system:
 
 3. **Install Python dependencies**
    ```bash
-   cd backend
+   cd servers
    pip install -r requirements.txt
    ```
 
@@ -94,7 +94,7 @@ Ensure you have the following installed on your system:
 
 1. **Navigate to frontend directory**
    ```bash
-   cd ../frontend
+   cd ../client
    ```
 
 2. **Install Node.js dependencies**
