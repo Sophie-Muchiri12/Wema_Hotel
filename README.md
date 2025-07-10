@@ -74,8 +74,12 @@ Ensure you have the following installed on your system:
    cd servers
    pip install -r requirements.txt
    ```
-
-4. **Environment Configuration**
+   or
+   
+   ```bash
+   pip install flask flask-sqlalchemy flask-migrate flask-cors pymysql python-dotenv
+   ```
+5. **Environment Configuration**
    Create a `.env` file in the `backend/` directory:
    ```env
    FLASK_APP=app.py
@@ -85,7 +89,7 @@ Ensure you have the following installed on your system:
    JWT_SECRET_KEY=your-jwt-secret-key
    ```
 
-5. **Initialize the database**
+6. **Initialize the database**
    ```bash
    python -c "from app import app, db; app.app_context().push(); db.create_all()"
    ```
